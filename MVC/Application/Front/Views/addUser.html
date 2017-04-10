@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="?c=User&a=addUser" method="post">
+    <h1>添加数据</h1>
+    用户名： <input type="text" name="username" /><br>
+    密码： <input type="password" name="password"><br>
+    年龄： <input type="text" name="age"><br>
+    学历： <select name="edu" id="">
+    <option value="1">小学</option>
+    <option value="2">中学</option>
+    <option value="3">大学</option>
+    <option value="4">硕士</option>
+    <option value="5">博士</option>
+</select><br>
+    兴趣爱好:
+    <input type="checkbox" name="hobby[]" value="1">排球
+    <input type="checkbox" name="hobby[]" value="2">篮球
+    <input type="checkbox" name="hobby[]" value="4">足球
+    <input type="checkbox" name="hobby[]" value="8">橄榄球
+    <input type="checkbox" name="hobby[]" value="16">棒球
+    <input type="checkbox" name="hobby[]" value="32">乒乓球
+    <br>来自：
+    <input type="radio" name="native" value="1">东北
+    <input type="radio" name="native" value="2">华北
+    <input type="radio" name="native" value="3">西北
+    <input type="radio" name="native" value="4">华东
+    <input type="radio" name="native" value="5">华南
+    <input type="radio" name="native" value="6">华西
+    <input type="hidden" name="code" value="">
+    <br><input type="submit" value="提交">
+</form>
+<a href="?">返回</a>
+
+
+<script>
+</script>
+</body>
+</html>

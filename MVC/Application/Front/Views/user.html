@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="?c=Product&a=ShowAllProduct">产品列表</a>
+<a href="?c=User">用户列表</a>
+<hr>
+<a href="?c=User&a=showForm">添加新用户</a>
+<table>
+    <tr>
+        <th>id</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>教育程度</th>
+        <th>爱好</th>
+        <th>家乡</th>
+        <th>注册时间</th>
+        <th colspan="3">操作</th>
+    </tr>
+    <?php  foreach ($data1 as $data){ ?>
+    <tr>
+        <td><?php echo $data['user_id'];?></td>
+        <td><?php echo $data['user_name'];?></td>
+        <td><?php echo $data['age'];?></td>
+        <td><?php echo $data['edu'];?></td>
+        <td><?php echo $data['hobby'];?></td>
+        <td><?php echo $data['native'];?></td>
+        <td><?php echo $data['reg_time'];?></td>
+        <td onclick="return mconfirm()"><a href="?c=User&a=delUser&id=<?php echo $data['user_id'];?>">删除</a></td>
+        <td><a href="?c=User&a=detail&id=<?php echo $data['user_id'];?>">详细</a></td>
+        <td><a href="?c=User&a=edit&id=<?php echo $data['user_id'];?>">修改</a></td>
+    </tr>
+    <?php }?>
+</table>
+<p>学生总数为 <?php echo $data2;?></p>
+<hr>
+<a href="?p=back&c=Admin&a=Login">进入后台</a>
+
+
+<script>
+    function mconfirm() {
+        return window.confirm("确认删除吗");
+    }
+</script>
+</body>
+</html>

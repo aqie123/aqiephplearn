@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>id</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>教育程度</th>
+        <th>爱好</th>
+        <th>家乡</th>
+        <th>注册时间</th>
+    </tr>
+    <tr>
+        <td><?php echo $data['user_id'];?></td>
+        <td><?php echo $data['user_name'];?></td>
+        <td><?php echo $data['age'];?></td>
+        <td><?php echo $data['edu'];?></td>
+        <td><?php echo $data['hobby'];?></td>
+        <td><?php echo $data['native'];?></td>
+        <td><?php echo $data['reg_time'];?></td>
+    </tr>
+</table>
+<a href="?">返回</a>
+
+
+<script>
+    function mconfirm() {
+        return window.confirm("确认删除吗");
+    }
+</script>
+</body>
+</html>

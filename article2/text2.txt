@@ -1,0 +1,45 @@
+1. 设置在flex容器上面的属性：
+
+设置主轴的方向：row(水平向右)，row-reverse(水平向左)，column(垂直向下)，column-reverse(垂直向上)。
+
+ flex-direction: row(默认值) | row-reverse | column | column-reverse
+
+flex项目一般都沿着一条轴线排列，这个属性设置当一条轴线排不下的时候，项目怎么换行： nowrap(不换行) ，wrap (往下换行)，wrap-reverse(往上换行)。
+
+ flex-wrap: nowrap(默认值) | wrap | wrap-reverse
+ 设置flex项目在主轴上的对齐方式： flex-start(左对齐) ，flex-end(右对齐)，center (居中对齐)， space-between(两端对齐)，space-around(flex项目两侧间隔相等)
+
+ justify-content: flex-start(默认值) | flex-end |  center | space-between | space-around
+设置flex项目在纵轴上的对齐方式： flex-start(上对齐) ，flex-end(下对齐)，center (居中对齐)，baseline(以flex项目的第一行文字底部对齐)，stretch(如果flex项目高度为auto | 没有设置高度，那么占满flex容器的高度)
+
+ align-items: flex-start(默认值) | flex-end | center
+flex-direction与flex-wrap的简写,按序赋值就好。
+
+ flex-flow: row nowrap(默认值) | ...
+
+这个属性没怎么用过，设置多根轴线在纵轴上的对齐方式。
+
+ align-content： stretch(默认值) | flex-start | flex-end |  center | space-between | space-around
+2. 设置在flex项目上的属性：
+
+当轴线上存在多余空间时，设置flex项目的扩大比例，默认值为0，即不扩大，扩大值还可取任意正数。
+
+ flex-grow: 0(默认值) | 任意正数
+当轴线上空间不足时，设置flex项目的缩小比例，默认值为1，即自动缩小，缩小值还可取0和任意正数。
+
+ flex-shrink: 1(默认值) | 0 | 任意正数
+重新分配轴线上的空间之前，该flex项目所占据的空间，默认值为auto，即它本身大小。
+
+ flex-basic:  auto(默认值) | 任意表示大小的值
+
+
+设置单个flex项目与其它项目不同的对齐方式，会覆盖flex容器的align-items的值，默认值为auto,即flex容器的align-items属性的值是什么，这个flex项目在纵轴上的对齐方式就是什么，其它值的解释与align-items的值相同。
+
+ align-self: auto(默认值) | flex-start | flex-end |  center | baseline | stretch
+
+设置项目的排序循序，数值小的在前，大的在后。
+
+ order: 0(默认值) | 整数值
+flex-grow、flex-shringk与flex-basic的简写,按序赋值就好，后面两个属性值为可选。
+
+ flex：0 1 auto(默认值) | ...

@@ -1,0 +1,28 @@
+[24-Feb-2017 15:54:36 PRC] PHP Fatal error:  年龄不符合要求 in F:\www\php\aqie\fileLoading.php on line 40
+[24-Feb-2017 16:32:29 PRC] PHP Warning:  constant(): Couldn't find constant E_PAESE in F:\www\php\aqie\fileLoading.php on line 47
+[24-Feb-2017 16:32:29 PRC] PHP Warning:  constant(): Couldn't find constant E_COMPILE_WARING in F:\www\php\aqie\fileLoading.php on line 47
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 16:56:14 PRC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in F:\www\php\aqie\fileLoading.php on line 46
+[24-Feb-2017 17:07:19 PRC] PHP Warning:  constant(): Couldn't find constant 32767 in F:\www\php\aqie\fileLoading.php on line 59
+[24-Feb-2017 17:07:19 PRC] PHP Warning:  constant(): Couldn't find constant 32767 in F:\www\php\aqie\fileLoading.php on line 60
+[24-Feb-2017 17:08:05 PRC] PHP Warning:  constant(): Couldn't find constant 32767 in F:\www\php\aqie\fileLoading.php on line 59
+[24-Feb-2017 17:08:05 PRC] PHP Warning:  constant(): Couldn't find constant 32767 in F:\www\php\aqie\fileLoading.php on line 60
+[24-Feb-2017 17:27:35 PRC] PHP Notice:  Undefined variable: POST in F:\www\php\aqie\fileLoading.php on line 66
+[24-Feb-2017 17:27:35 PRC] PHP Notice:  Undefined variable: n in F:\www\php\aqie\fileLoading.php on line 69
+[24-Feb-2017 17:27:35 PRC] PHP Warning:  Division by zero in F:\www\php\aqie\fileLoading.php on line 69
+[24-Feb-2017 17:27:53 PRC] PHP Warning:  Division by zero in F:\www\php\aqie\fileLoading.php on line 69
+[24-Feb-2017 17:40:56 PRC] PHP Notice:  Undefined variable: add in F:\www\php\aqie\fileLoading.php on line 81
+[24-Feb-2017 17:41:31 PRC] PHP Warning:  Missing argument 2 for add(), called in F:\www\php\aqie\fileLoading.php on line 81 and defined in F:\www\php\aqie\fileLoading.php on line 78
+[24-Feb-2017 17:41:32 PRC] PHP Notice:  Undefined variable: b in F:\www\php\aqie\fileLoading.php on line 79

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文件上传</title>
+</head>
+<body>
+
+<form action="FileUploadMulti.php" method="post" enctype="multipart/form-data">
+    商品名<input type="text" name="goods_name">
+    <!--商品图片 <input type="file" name="goods_image">-->
+    <!--用户图片 <input type="file" name="user_image">-->
+    <!--品牌图片 <input type="file" name="brand_image">-->
+    <!--一般意义多文件上传-->
+    商品图片 <input type="file" name="goods_image[]">
+    商品图片 <input type="file" name="goods_image[]">
+    商品图片 <input type="file" name="goods_image[]">
+    <button>提交</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,231 @@
+body{
+	font-family: 'Microsoft YaHei',sans-serif;
+	/*background-color: #415852;*/
+	background-color: #1c1e22;
+}
+/*导航*/
+.navbar-default{
+	background-color: #fff;
+	border:none;
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.5);
+}
+.navbar-default .navbar-brand{
+	font-size: 26px;
+	font-weight: bold;
+	color:#166109;
+	height:70px;
+	line-height: 35px;
+}
+.navbar-default .navbar-nav li{
+	
+    margin-top: 10px;
+    /*background-color: #1AF20C;*/
+}
+.navbar-default .navbar-nav li a {
+    color: #5D0707;
+    font-size:16px;
+    font-weight: bold;
+    height:35px;
+    line-height: 10px;
+} 
+
+.navbar .navbar-brand{
+	font-size: 40px;
+}
+a.navbar-brand.wow.animated:hover{
+	color:#5d0707;
+}
+/*小屏幕菜单颜色+位置设置*/
+.navbar-default .navbar-toggle:hover {
+    border-color: #eee;
+    background-color: #eee;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #666;
+}
+.navbar-toggle{
+	margin-top: 16px;
+}
+
+/*home*/
+#home{
+	margin-top: 70px;
+	/*background: url(../picture/home-bg.jpg);*/
+	background-size: cover;
+	color:#fff;
+	text-align: center;
+	width:100%;
+
+}
+/*.lvjing{
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.6);
+	padding:90px 0;
+}*/
+#home h2{
+	font-weight: bold;
+	margin-top:0;
+	margin-bottom: 25px;
+}
+#home p{
+	font-weight: 400;
+	line-height: 35px;
+}
+#home img{
+	margin-top:30px;
+	display: inline-block;
+}
+#home .row{
+	margin:0;	
+}
+/*bbs*/
+#bbs{
+	padding: 80px 0;
+	text-align: center;
+}
+#bbs .col-md-4 {
+    padding: 15px;
+
+}
+#bbs img{
+	margin:0 auto;
+}
+#bbs h3{
+	font-weight: bold;
+}
+a:-webkit-any-link {
+    color: #999;
+    text-decoration: none;
+
+    cursor: auto;
+}
+#bbs .col-md-4:hover{
+	/*box-shadow: 2px 2px 5px 2px #32443f;*/
+	box-shadow: 2px 2px 5px 2px rgba(5, 9, 16, 0.67);
+}
+/*html5*/
+ h2{  /*公共样式*/
+	color:#eee;
+	font-weight: bold;
+}
+p{
+	color:#ccc;
+	/*text-indent: 2em;*/
+	line-height: 25px;
+}
+/*html5*/
+#html5{
+	padding: 80px 0;
+}
+#html5 .col-md-6{
+	margin-bottom: 30px;
+}
+.mai-icon{
+	background: rgb(64,210,177);
+	color: #fff;
+	border-radius: 50%;
+	width:40px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+
+/*new开始*/
+#new{
+	text-align: center;
+	padding:50px 0;
+}
+#new a{
+	margin-top: 10px;
+	color:#fff;s
+}
+#new a:hover{
+	color:#eee;
+}
+#new .col-lg-3{
+	margin-bottom: 20px;
+}
+#new h1{
+	color:#fff;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+/*app开始*/
+#app{
+    padding: 80px 0;
+}
+#app .mobile{
+	width:100%;
+	height:300px;
+	background-image: url(../picture/app-banner.jpg);
+	background-size: cover;
+}
+#app .lvjing{
+	padding:0;
+	background: rgba(0,0,0,0.3);
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+
+/*contact开始*/
+#contact{
+	background: url(../picture/contact-bg.png);
+	background-size: cover;	
+}
+#contact h2{
+	margin-top: 0;  /*去掉h2上边距左右对齐*/
+}
+#contact p{
+	color:#fff;
+	font-weight: bold;
+	line-height: 30px;
+	
+}
+#contact .lvjing{
+	padding:50px 0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.6);
+	
+}
+#contact input.form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact .col-md-8 input.form-control {
+    margin-top: 20px;
+}
+#contact input[type="submit"]{
+	background: #044E3D;
+	color:#fff;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.3s;    /*淡入淡出效果*/
+}
+#contact input[type="submit"]:hover{
+	background: #011501;
+	color:#13E10A;
+}
+
+/*footer开始*/
+footer{
+	text-align: center;
+	font-weight: 800;
+	padding: 20px;
+}

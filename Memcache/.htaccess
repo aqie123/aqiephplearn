@@ -1,0 +1,21 @@
+# 开启重写开关
+RewriteEngine on
+
+RewriteRule ^order\.xml$ order\.php
+
+# 访问www.aqie.com/goods_23.xml
+# 指向 www.aqie.com/goods.php?id=23
+# ()正则模式单元内容
+# $1 表示重复使用第一个括号内容
+RewriteRule ^goods_(\d+)\.html$ goods\.php?id=$1
+
+
+RewriteRule ^dog_(\d+)_([a-z]+)_([a-z]+)\.html$ dog\.php?id=$1&name=$2&addr=$3
+
+# 域名地址跳转
+# 如果访问主机域名地址通过
+RewriteCond %{HTTP_HOST} ^www.tp.com
+# 跳转到www.aqie.com域名进行访问
+# （.*）代表 上面域名访问时候除了主机域名 之外信息
+RewriteRule ^(.*) http://www.aqie.com/php/memcache/$1
+

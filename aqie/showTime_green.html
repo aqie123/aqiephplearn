@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>显示当前时间</title>
+    <style>
+        body{
+            background: #0f0;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+<p align="right">
+    <a href="./ObjectOriented.php?ban=red">红版</a>
+    <a href="./ObjectOriented.php?ban=green">绿版</a>
+    <a href="./ObjectOriented.php?ban=blue">蓝版</a>
+</p>
+<p align="right">
+    <a href="./ObjectOriented.php?ban=green&f=date">时间形式1</a>
+    <a href="./ObjectOriented.php?ban=green&f=time">时间形式2</a>
+</p>
+<h1>
+    当前时间为：<?php  echo "<br>".$t;?>
+</h1>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body{
+	font-family: 'Microsoft YaHei',sans-serif;
+	/*background-color: #415852;*/
+	/*background-color: #272b30;*/
+	/*background-color: #fff;*/
+	background-color: #1c1e22;
+}
+
+/*后台首页*/
+.count .table{
+	color:#130202;
+}
+.post a{
+	color:#130202;
+	text-decoration: none;
+}
+.post a:hover{
+	color:#14B00A;
+}
+.homepage .col-md-6 .panel .progress {
+    margin-bottom: 15px;
+}
+
+
+.wh64{
+	width:64px;
+	height:64px;
+}
+
+button.btn.btn-success.subbtn {
+    margin-top: 15px;
+}
+/*userlist.html*/
+.page-header{
+	margin-top:0;
+}
+.page-header h4{
+	margin:0;
+	font-weight: bold;
+	color: #fff;
+}
+ul.pagination {
+    margin-top: 0;
+}
+.row table.table {
+    /*padding: 10px;*/
+    /*border: 1px solid #eee;     配合黑色主题*/
+    border-top: none;
+}
+
+/*user_search.html*/
+form {
+    /*border: 1px solid #eee;     配合黑色主题*/
+    padding: 10px;
+    border-top: none;
+}
+table{
+	color:#E4DDDD;
+}
+
+/*tag.html*/
+.tag form{
+	padding: 0;
+    margin-top: 22px;
+    border: none;
+}
+.tag .page-header{
+	margin-bottom: 0;
+}
+.addbtn{
+	margin-bottom: 10px;
+}
+.taglist{
+	margin:20px  auto;
+}
+.taglist .alert{
+	margin:0 20px 20px 0;
+}
+/*footer开始*/
+footer{
+	text-align: center;
+	font-weight: 800;
+	padding: 20px;
+}
